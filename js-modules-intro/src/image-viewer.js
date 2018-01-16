@@ -3,7 +3,7 @@ import small from '../assets/small.jpg';
 
 import '../styles/image-viewer.css';
 
-export default = () => {
+export default () => {
     const imageSm = document.createElement('img');
     imageSm.src = small;
     document.body.appendChild(imageSm);
