@@ -61,4 +61,4 @@ typings/
 .next
 
 # bundle/build folder
-build/
+dist/
