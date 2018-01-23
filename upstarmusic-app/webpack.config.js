@@ -1,9 +1,9 @@
-var webpack = require('webpack');
-var path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const VENDOR_LIBS = [
-  'react', 'react-redux', 'react-dom', 'react-router', 'react-input-range',
+  'react', 'react-redux', 'react-dom', 'react-input-range',
   'redux', 'redux-form', 'redux-thunk', 'faker', 'lodash'
 ];
 
